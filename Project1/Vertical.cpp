@@ -15,11 +15,15 @@ void main()
 	std::cout << " Veuillez entrer un nombre entier :";
 	std::cin >> nombre1;								//L'utilisateur entre un nombre entier
 
+	// KM : Non les conditions dans le if ne s'écrivent pas comme cela. A revoir
+	// KM : Manque commentaires
 	if (nombre1 <9999, nombre1>100000)
 	{
-	 std::string 
+	 
+		// KM : D'où sort ce code ??
+		std::string 
 		string nombre1;
-		
+	// KM : Il faut que tu utilises ce qui a été vu en classe, sinon je n'évalue pas la compétence à utiliser les opérateurs arithmétiques	
 	 std::cout << nombre1[nb1 = nb1 % 100] << endl;
 	 std::cout << nombre1[nb1 = nb1 % 100] << endl;
 	 std::cout << nombre1[nb1 = nb1 % 100] << endl;
@@ -30,11 +34,11 @@ void main()
 
 	else
 	{
-		std::cout <<" Votre nombre ne contient pas 5 chiffres veuillez r�essayer"
+		std::cout <<" Votre nombre ne contient pas 5 chiffres veuillez réessayer"
 	}
 
 
-
+// KM : Manque plan de test
 
 
 
