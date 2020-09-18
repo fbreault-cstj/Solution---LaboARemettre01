@@ -16,8 +16,9 @@ void main()
 	std::cin >> nombre1;								//L'utilisateur entre un nombre entier
 	
 
-	if (nombre1 % 2 == 0)				// Un nombre pair est divisible par 2 et reste entier
-										// Si le nombre1 es un nombre impair, il ne resteras pas entier lorsqu'il sera divisé par 2
+	if (nombre1 % 2 == 0)				// Un nombre pair est divisible par 2 KM : OUI ! et reste entier KM : Je ne comprends pas le reste du commentaire ???
+							// FR : Si le nombre1 es un nombre impair, il ne resteras pas entier lorsqu'il sera divisÃ© par 2
+		// KM : Que signifie ne restera pas entier ???
 	{
 		std::cout << nombre1 << " est un nombre pair " << std::endl;
 	}
@@ -32,8 +33,9 @@ void main()
 	
 
 	// plan de test
+	// Excellent plan de tests, manque peut-Ãªtre la valeur 0
 	/*
-	nombre1					Résultat escompté
+	nombre1					RÃ©sultat escomptÃ©
 	 514					Est un nombre pair
 	-845120					Est un nombre pair
 	9788					Est un nombre pair
